@@ -1,6 +1,6 @@
 # Data Science Skills Decal Project 1
 
-**Team Members:** [List the full names of all team members here]  
+**Team Members:** Seoyoun Oh, Erin Liu, Justin Nguyen, and Maddy Rutherford
 
 **Resumes and Descriptions**  
 
