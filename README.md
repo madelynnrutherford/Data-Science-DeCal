@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Data-Science-DeCal
-=======
-my text
->>>>>>> feccb30c0a5c72083fd37ef6921365e8d1960dc1
-=======
+
 # Data Science Skills Decal Project 1
 
 **Team Members:** Seoyoun Oh, Erin Liu, Justin Nguyen, and Maddy Rutherford
@@ -28,4 +23,3 @@ Justin Nguyen
 Erin Liu
 * I am a second-year student at UC Berkeley studying Data Science. I hope to intern at a startup this summer to gain some industry knowledge and skills to better determine what I'm passionate about in the tech sector. Outside of classes, I dance with The Movement and am involved with BEAM.
 * Jobs interested in: Product Management, Software Engineering, Data Analytics
->>>>>>> 31cd3d58154eab1a4960cbda44ea8b3f8e79be10
