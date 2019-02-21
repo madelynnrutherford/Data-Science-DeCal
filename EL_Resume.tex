@@ -1,0 +1,158 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\usepackage[charter]{mathdesign} % Bitstream Charter
+% \usepackage{newpxtext,newpxmath} % Palatino
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & #2 \\
+      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  \small \textbf{{\huge Erin Liu}} \\
+  \vspace{5pt}
+  \href{mailto:erinyliu@berkeley.edu}{{erinyliu@berkeley.edu}} $\vert$
+  408-507-6169 $\vert$
+  LinkedIn: \href{https://www.linkedin.com/in/erinyliu/}{{erinyliu}} \\
+  \vspace{5pt}
+  \small 1234 Boba Lane, Milk Tea, CA
+\end{center}
+
+%-----------EDUCATION-----------------
+\shorterSection{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Berkeley}{Berkeley, CA}
+      {Bachelor of Arts in Data Science}{Expected December 2021}{
+      \resumeItemNoBullet{Relevant Coursework}{Structure and Interpretation of Computer Programs, Data Structures and Algorithms, Foundations of Data Science, Linear Algebra \& Differential Equations, Microeconomic Theory}
+      \resumeItemNoBullet{Languages \& Libraries}{Python, SQL, R, Java, Numpy, Pandas, Jupyter}
+    }
+    \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE---------------
+\vspace{-.25pt}
+\shorterSection{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Berkeley Engineers and Mentors}{Berkeley, CA}
+      {Mentor}{February 2019 - Present}
+        \item Teaching weekly lessons involving lab activities with a focus on science and engineering topics in up to 18 underprivileged elementary and middle schools in the Berkeley and Oakland neighborhoods
+        \item Mentor kids in low-income areas and inspire them to work toward their education and pursue careers in STEM
+    \resumeSubheading
+      {Data Science Society}{Berkeley, CA}
+      {Project Analyst}{February 2019 - Present}
+      \setlength\itemsep{.25em}
+      \item Working on a team project to research and analyze data sets to be presented at annual Berkeley Research Symposium
+    \resumeSubheading
+      {Asian America Foundation}{San Francisco, CA}
+      {Developer Consultant}{December 2018 - Present}
+      \setlength\itemsep{.25em}
+      \item Worked closely with organization director to examine problems with manual score-keeping process
+      \item Developed a potential strategy to create a digital solution to streamline the scoring process
+      \item Planned meetings with organization president to create prototype algorithms for application
+      \item Proposed to launch testing of new application for testing by 2nd Quarter of 2019
+    \resumeSubheading
+      {UC Berkeley}{Berkeley, CA}
+      {CS 61A Lab Assistant}{Aug 2018 - Dec 2018}
+      \setlength\itemsep{.25em}
+      \item Assisted teaching weekly lab sections and provided explanations to technical concepts in python
+      \item Held office hours to assist students with homework, labs, and project assignments
+      \item Conducted weekly check in with the class to ensure understanding of the materials taught
+      \item Mentored students to overcome and ameliorate disappointment in preliminary class performances
+  \resumeSubHeadingListEnd    
+ 
+
+%-----------PROJECTS-----------------
+\shorterSection{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Gitlet}
+     {Built a smaller version-control system similar to git}
+     \resumeSubItem{Chatbot Queries}
+     {Sorted a list of 4000 entries to determine the top 10 most asked queries for a Japanese AI chatbot startup to better cater to traveler's needs}
+  \resumeSubHeadingListEnd
+
+%-----------Addtional Experience & Achievements-----------------
+\shorterSection{Additional Involvement \& Achievements}
+  \resumeSubHeadingListStart
+  \small
+    \item{2017 AT\&T Miss Innovation}
+    \vspace{-5pt}
+    \item{2nd Place Business Ethics, 2016 FBLA National Leadership Conference}
+    \vspace{-5pt}
+    \item{DataBears}
+    \vspace{-5pt}
+    \item{Statistics Undergraduate Student Association}
+    \vspace{-5pt}
+    \item{The Movement}
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
